@@ -7,7 +7,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-**node_modules
+$ git add .gitignorenode_modules
 dist
 dist-ssr
 *.local
