@@ -6,7 +6,7 @@ import getCroppedImageUrl from '../services/image-url'
 
 
 interface Props {
-    onSelectedGenre: (genre: Genre) => void
+  onSelectedGenre: (genre: Genre) => void
 }
 const GenreList = ({onSelectedGenre}: Props) => {
     const [selectedGenre, setSelectedGenre] = useState<Genre | null>(null);
