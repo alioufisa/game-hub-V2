@@ -8,6 +8,7 @@ import PlatformSelector from "./components/PlatformSelector";
 import SortSelector from "./components/SortSelector";
 import { Platform } from "./hooks/useGames";
 import { Genre } from "./hooks/useGenres";
+import FooterT from "./components/FooterT";
 
 
 export interface GameQuery { 
@@ -50,6 +51,7 @@ function App() {
           </Flex>
         </Box>
         <GameGrid gameQuery={gameQuery} />
+        <FooterT />
       </GridItem>
     </Grid>
   );
